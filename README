@@ -17,7 +17,26 @@
 
 Name           DSLI  Description                                  Info
 -------------  ----  -------------------------------------------- -----
-CGI::MxScreen  adpO  A multi-screen stateful CGI framework        RAM
+CGI::MxScreen  adpO  A multi-screen stateful CGI framework        PURDY
+
+
+------------------------------------------------------------------------
+This software was released by Raphael Manfredi to my care as a
+maintainer, as he has since "retired" to spend more time with family and
+the real world.  So while you read the documentation (which I've left
+intact so far) and code (also intact), please redirect any questions
+you may have to me instead of Raphael.
+
+I am still learning this module and appreciate your patience - if you
+have any bug reports or patches to submit, I will gladly accept them.
+
+Best of luck to Raphael in his future endeavours and thank you for
+downloading CGI::MxScreen.
+
+Jason Purdy
+Jason@Purdy.INFO
+October 15, 2004
+------------------------------------------------------------------------
 
 CGI::MxScreen is a framework for building multi-screen stateful CGI
 programs.  It is mostly object-oriented, in that you interact with

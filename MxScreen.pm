@@ -27,7 +27,7 @@ use strict;
 package CGI::MxScreen;
 
 use vars qw($VERSION $BIN_VERSION);
-$VERSION = '0.101';
+$VERSION = '0.102';
 $BIN_VERSION = '0.1';
 
 use CGI::MxScreen::Constant;
