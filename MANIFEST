@@ -1,0 +1,28 @@
+README                               The main README file
+MANIFEST                             This shupping list
+ChangeLog                            List of changes
+Makefile.PL                          Builds Makefile
+MxScreen.pm                          Manager object
+MxScreen/Action_Env.pm               Environment for action callbacks
+MxScreen/Config.pm                   Dynamic configuration
+MxScreen/Constant.pm                 Internal constants
+MxScreen/Error.pm                    Action callback return codes
+MxScreen/Exception.pm                Ancestor for exception classes
+MxScreen/Exception/Bounce.pm         A screen bounce exception
+MxScreen/Form/Button.pm              A recorded button
+MxScreen/Form/Field.pm               A recorded fields
+MxScreen/Form/Utils.pm               Repository of field callbacks
+MxScreen/HTML.pm                     Extra HTML generating subs
+MxScreen/Layout.pm                   Hooks for layout control
+MxScreen/Screen.pm                   Ancestor of all user-defined screens
+MxScreen/Serializer.pm               Ancestor of all serializers
+MxScreen/Serializer/Storable.pm      The Storable serializer
+MxScreen/Session.pm                  Session management object
+MxScreen/Session/Medium.pm           Abstract session medium
+MxScreen/Session/Medium/Browser.pm   Session saved within browser
+MxScreen/Session/Medium/File.pm      Session saved to a file
+MxScreen/Session/Medium/Raw_File.pm  Session saved via raw Storable calls
+MxScreen/Tie/Buffered_Output.pm      Buffers STDOUT output until completion
+MxScreen/Tie/Read_Checked.pm         Checks key access to global hash
+MxScreen/Tie/Sinkable.pm             Ancestor to sinkable tied filehandles
+MxScreen/Tie/Stdout.pm               Discards STDOUT until display() time
