@@ -1,6 +1,6 @@
 # -*- Mode: perl -*-
 #
-# $Id: Screen.pm,v 0.1 2001/04/22 17:57:03 ram Exp $
+# $Id: Screen.pm,v 0.1.1.1 2001/05/30 21:14:06 ram Exp $
 #
 #  Copyright (c) 1998-2001, Raphael Manfredi
 #  Copyright (c) 2000-2001, Christophe Dehaudt
@@ -10,6 +10,9 @@
 #
 # HISTORY
 # $Log: Screen.pm,v $
+# Revision 0.1.1.1  2001/05/30 21:14:06  ram
+# patch1: added sub-section on creation routine
+#
 # Revision 0.1  2001/04/22 17:57:03  ram
 # Baseline for first Alpha release.
 #
@@ -597,6 +600,28 @@ Because the above hooks were necessary, it means that adding other
 serializer support (see L<CGI::MxScreen::Serializer>) will probably require
 similar hooks.  Unfortunately, although we could design things so as to make
 this choice possible, the only serializer we knew about was C<Storable>.
+
+=head2 Creation Routine
+
+Screens are created automatically by the C<CGI::MxScreen> manager, based
+on the C<-screens> settings, as explained in
+L<CGI::MxScreen/"Creation Routine">.  The only special argument is C<-class>,
+which is handled internally by C<CGI::MxScreen>, but the others are passed
+verbatim to the screen creation routine.
+
+The supported arguments are:
+
+=over 4
+
+=item C<-bgcolor> => I<color>
+
+Optinal. Overrides the default background for this screen.
+
+=item C<-title> => I<screen_title>
+
+Mandatory.  Sets the screen title.
+
+=back
 
 =head2 Attributes
 

@@ -19,10 +19,9 @@ Name           DSLI  Description                                  Info
 -------------  ----  -------------------------------------------- -----
 CGI::MxScreen  adpO  A multi-screen stateful CGI framework        RAM
 
-CGI::MxScreen is a framework for building multi-screen
-stateful CGI programs.  It is mostly object-oriented, in that you
-interact with objects, but has some peculiarities due to serialization
-constraints.
+CGI::MxScreen is a framework for building multi-screen stateful CGI
+programs.  It is mostly object-oriented, in that you interact with
+objects, but has some peculiarities due to serialization constraints.
 
 Here are the main features of `CGI::MxScreen':
 

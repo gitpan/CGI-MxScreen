@@ -1,6 +1,6 @@
 # -*- Mode: perl -*-
 #
-# $Id: Bounce.pm,v 0.1 2001/04/22 17:57:03 ram Exp $
+# $Id: Bounce.pm,v 0.1.1.1 2001/05/30 21:13:41 ram Exp $
 #
 #  Copyright (c) 1998-2001, Raphael Manfredi
 #  Copyright (c) 2000-2001, Christophe Dehaudt
@@ -10,6 +10,9 @@
 #
 # HISTORY
 # $Log: Bounce.pm,v $
+# Revision 0.1.1.1  2001/05/30 21:13:41  ram
+# patch1: removed DFEATURE call from stringify hook
+#
 # Revision 0.1  2001/04/22 17:57:03  ram
 # Baseline for first Alpha release.
 #
@@ -60,14 +63,12 @@ sub target		{ $_[0]->[TARGET] }
 # For display purposes, if they try to stringify us.
 #
 sub stringify {
-	DFEATURE my $f_;
+	# Can't DFEATURE this routine, or would be a recursive call
 	my $self = shift;
-
 	my ($state, @args) = @{$self->target};
 	my $state_str = $state;
 	$state_str .= "(" . join(', ', @args) . ")" if @args;
-
-	return DVAL "bounce exception => $state_str";
+	return "bounce exception => $state_str";
 }
 
 1;
