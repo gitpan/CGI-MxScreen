@@ -159,6 +159,10 @@ Tom Christiansen F<E<lt>tchrist@perl.comE<gt>> within his MxScreen program.
 Raphael Manfredi F<E<lt>Raphael_Manfredi@pobox.comE<gt>> for the repackaging
 within the C<CGI::MxScreen> framework.
 
+Send bug reports, suggestions, problems or questions to
+Jason Purdy F<E<lt>Jason@Purdy.INFOE<gt>>
+
+
 =head1 SEE ALSO
 
 CGI::MxScreen(3).

@@ -1,3 +1,11 @@
+Mon Oct 18 10:59:00 EST 2004    Jason Purdy <Jason@Purdy.INFO>
+
+	Fixed the 'make test' problem - it was a permissions thing
+	where the cgi files had to be executable.  Go figure. ;)
+
+	I also updated the POD documentation AUTHORS section to
+	have folks bug me.
+
 Wed Oct 15 11:44:00 EST 2004	Jason Purdy <Jason@Purdy.INFO>
 
 	Updated README file to let folks know I'm the new maintainer of

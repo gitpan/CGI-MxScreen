@@ -27,7 +27,7 @@ use strict;
 package CGI::MxScreen;
 
 use vars qw($VERSION $BIN_VERSION);
-$VERSION = '0.102';
+$VERSION = '0.103';
 $BIN_VERSION = '0.1';
 
 use CGI::MxScreen::Constant;
@@ -2462,9 +2462,13 @@ you're curious.
 
 =head1 AUTHORS
 
+The original authors are
 Raphael Manfredi F<E<lt>Raphael_Manfredi@pobox.comE<gt>>
 and
 Christophe Dehaudt F<E<lt>Christophe.Dehaudt@teamlog.frE<gt>>.
+
+Send bug reports, suggestions, problems or questions to
+Jason Purdy F<E<lt>Jason@Purdy.INFOE<gt>>
 
 =head1 SEE ALSO
 

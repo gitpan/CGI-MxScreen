@@ -104,9 +104,13 @@ and dynamic error trapping.
 
 =head1 AUTHORS
 
+The original authors are
 Raphael Manfredi F<E<lt>Raphael_Manfredi@pobox.comE<gt>>
 and
 Christophe Dehaudt F<E<lt>Christophe.Dehaudt@teamlog.frE<gt>>.
+
+Send bug reports, suggestions, problems or questions to
+Jason Purdy F<E<lt>Jason@Purdy.INFOE<gt>>
 
 =head1 SEE ALSO
 
